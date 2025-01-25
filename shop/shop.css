@@ -1,0 +1,61 @@
+header {
+	margin: 0;
+
+	h1 {
+		color: rgb(255, 255, 255);
+	}
+	#nav {
+		display: flex;
+		background-color: rgb(0, 0, 0);
+	}
+	#nav > #gallery,
+	#shop,
+	#music {
+		margin: 1% 3% 1%;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 25px;
+		border: 1px solid rgba(255, 0, 0, 0);
+		padding: 0.4%;
+		color: azure;
+		text-decoration: none;
+		font-weight: bolder;
+		text-align: center;
+	}
+	#gallery {
+		flex: 1;
+	}
+	#logo {
+		flex: 1;
+	}
+	#shop {
+		flex: 1;
+	}
+	#music {
+		flex: 1;
+	}
+	#space {
+		flex: 15;
+	}
+	#nav > #logo,
+	#space {
+		margin: 1% 3% 1%;
+		font-size: 25px;
+		color: aliceblue;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+	}
+	#nav > #gallery:hover,
+	#shop:hover,
+	#music:hover {
+		margin: 1% 3% 1%;
+		border: 0.5px solid #00ffff5e;
+		color: #00ffff;
+	}
+	#insta {
+		height: 5vh;
+	}
+}
+body {
+	padding: 0;
+	margin: 0;
+}

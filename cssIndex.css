@@ -1,0 +1,140 @@
+header {
+	margin: 0;
+	height: 100vh;
+	background-image: url("images/4e42a80d-bb6c-43a2-b266-3306accdeeaa.webp");
+	background-repeat: no-repeat;
+	background-size: 200vh;
+	background-position: center;
+
+	h1 {
+		color: rgb(255, 255, 255);
+	}
+
+	#nav {
+		position: fixed;
+		display: flex;
+		width: 100vw;
+		z-index: 1000;
+	}
+	#nav > #gallery,
+	#shop,
+	#music {
+		margin: 1% 3% 1%;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 25px;
+		border: 1px solid rgba(255, 0, 0, 0);
+		padding: 0.4%;
+		color: azure;
+		text-decoration: none;
+		font-weight: bolder;
+		text-align: center;
+	}
+	#gallery {
+		flex: 1;
+	}
+	#logo {
+		flex: 1;
+		height: 5vh;
+	}
+	#shop {
+		flex: 1;
+	}
+	#music {
+		flex: 1;
+	}
+	#space {
+		flex: 15;
+	}
+	#nav > #logo,
+	#space {
+		margin: 1% 3% 1%;
+		font-size: 25px;
+		color: aliceblue;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+	}
+	#nav > #gallery:hover,
+	#shop:hover,
+	#music:hover {
+		margin: 1% 3% 1%;
+		border: 0.5px solid #00ffff5e;
+		color: #00ffff;
+	}
+}
+#headerbox {
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	background-color: black;
+	width: 100vw;
+	height: 85px;
+}
+main {
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+	h2 {
+		font-size: 40px;
+	}
+	p {
+		font-size: 20px;
+		text-indent: 40px;
+	}
+}
+.boxOne {
+	background-color: black;
+	color: aliceblue;
+	display: flex;
+	flex-wrap: wrap;
+	height: 50vh;
+	margin-top: -4%;
+
+	padding: 5%;
+	h2 {
+		margin: 0;
+	}
+	.imgBoxOne {
+		flex: 2;
+		order: 2;
+		height: 25vw;
+		border: 1px solid #414141;
+		border-radius: 10px;
+	}
+	.textBoxOne {
+		flex: 1;
+		order: 1;
+		background-color: #414141;
+		height: 22vw;
+		padding: 2%;
+		margin-right: 5%;
+	}
+}
+
+.boxTwo {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	display: flex;
+	height: 50vh;
+	padding: 5%;
+	flex-wrap: wrap;
+
+	h2 {
+		margin: 0;
+	}
+	.imgBoxTwo {
+		flex: 2;
+		order: 1;
+		margin-top: 3%;
+	}
+	.textBoxTwo {
+		flex: 1;
+		order: 2;
+		height: 21.5vw;
+
+		background-color: #d3cece;
+		padding: 2%;
+		margin-left: 5%;
+	}
+}
